@@ -15,10 +15,10 @@ int main()
           cin >> number_2;
           cout << endl;
           cout << "Select Operator" << endl;
-          cout << "A)ddition  (+)" << endl;
+          cout << "1)ddition  (+)" << endl;
           cout << "S)ubtraction  (-)" << endl;
-          cout << "M)ultiplication  (*)" << endl;
-          cout << "D)ivision (/)" << endl;
+          cout << "3)ultiplication  (*)" << endl;
+          cout << "4)ivision (/)" << endl;
           cout << "You Select:";
           cin >> choice_operator;
 
@@ -28,22 +28,22 @@ int main()
           {
             case '+' :
             case 'A' :
-            case 'a' : cout << " + ";
+            case '1' : cout << " + ";
                              result = number_1 + number_2;
                              break;
             case '-' :
             case 'S' :
-            case 's' : cout << " - ";
+            case '2' : cout << " - ";
                              result = number_1 - number_2;
                              break;
             case '*' :
             case 'M' :
-            case 'm' : cout << " * ";
+            case '3' : cout << " * ";
                               result = number_1 * number_2;
                               break;
             case '/' :
             case 'D' :
-            case 'd' : cout << " / ";
+            case '4' : cout << " / ";
                              result = number_1 / number_2;
                              break;
 
